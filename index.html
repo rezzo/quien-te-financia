@@ -1,9 +1,25 @@
 ---
-layout: layout
+layout: base
 title: "Posts"
 ---
+<h2> Que no nos gobierne el poder invisible<h2>
+  <h3> Dime quién te financia </h3>
 
-<section class="content">
+<section class="content blacklist">
+<p> Estos candidatos no han firmado el compromiso de transparencia </p>
+  <ul class="listing">
+    <ul class="posts">
+      {% for post in site.posts %}
+          {% if post.categories contains 'blacklist' %}
+              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+      {% endfor %}
+</ul>
+  </ul>
+</section>
+<section class="content blacklist">
+<h3> Estos candidatos no quieren que los maneje el poder invisible</h3>
+<p>Por eso firmaron el compromiso por la transparencia en el financiamiento de campañas políticas</p>
   <ul class="listing">
     {% for post in site.posts %}
     <li>
