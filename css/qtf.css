@@ -1,0 +1,21 @@
+.headTop{
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.headTop a{
+	color: #fff;
+	text-decoration: none;
+
+}
+.headTop{
+
+}
+.siteLogo, .mainNav{ float: left;}
+.mainNav ul li{ float: left;}
+.centerCont{ 
+	max-width: 950px;
+	margin: 0 auto;
+}

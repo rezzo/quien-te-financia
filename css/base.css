@@ -10,7 +10,7 @@ a {
 .sidebar {
   position: fixed;
   left: 15px;
-  top: 15px;
+  top: 140px;
   width: 80px;
   font-family: Helvetica, sans-serif; }
   .sidebar a {
@@ -57,11 +57,11 @@ a {
       list-style: none;
       margin-bottom: 7px; }
 
-.content {
-  max-width: 650px;
-  margin-left: 110px;
-  margin-right: 20px;
-  margin-bottom: 50px; }
+.content{
+ 
+  padding: 20px;
+}
+.content{  margin-bottom: 50px; }}
   .content h1 {
     color: #333;
     font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
