@@ -5,9 +5,11 @@ auto: true
 rdiscount:
   extensions: [smart]
 
-name: Zach Holman
-url: http://zachholman.com
-description: A fantastic blog that is fantastic.
-twitter: holman
-github: holman
+name: Quién te financia
+featured-image: //images/post/
+url: http://ciudadanointeligente.org
+description: Que no nos gobierne el poder invisible
+twitter: ciudadanoi
+github: ciudadanointeligente
 gravatar_url: http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c
+
