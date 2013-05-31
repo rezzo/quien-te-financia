@@ -1,9 +1,18 @@
 ---
 layout: candidato
+
 title: post de candidato blanquito
+
 categories: 
 - candidatos
 - whitelist
+
+featured-image: ../../images/post/avatar.png
+
+semaforo: verde
+
+c_twitter: presi
+
 
 ---
 hola electores!

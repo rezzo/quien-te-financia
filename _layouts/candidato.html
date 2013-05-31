@@ -6,9 +6,17 @@ layout: base
   <h1>
     <a href="{{ page.url }}">{{ page.title }}</a>
   </h1>
+  <img src="{{page.featured-image}}" />
+  
+
+
+
+
+
 
   <section class="byline">
-    {{ page.date | date: "%B %e, %Y" }}
+  Color de su semáforo: {{page.semaforo}}
+  <div class="actionspace">Twitéale a <a href=""> @{{page.c_twitter}} </a></div>
   </section>
 
   {{ content }}
