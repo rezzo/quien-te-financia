@@ -1,0 +1,22 @@
+---
+layout: candidato
+
+title: Andrés Velasco
+categories: 
+- candidatos
+- whitelist
+
+featured-image: ../../images/post/Velasco.png
+
+semaforo: verde
+
+c_twitter: andresvelasco
+
+
+---
+Lorem Ipsum Dolor sit amet
+---
+
+Voten por [mi][left]
+
+[left]: https://candideit.org

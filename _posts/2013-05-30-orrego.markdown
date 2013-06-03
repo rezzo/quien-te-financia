@@ -1,0 +1,23 @@
+---
+layout: candidato
+
+title: Claudio Orrego
+
+categories: 
+- candidatos
+- blacklist
+
+featured-image: ../../images/post/Orrego.png
+
+semaforo: rojo
+
+c_twitter: orrego
+
+
+---
+Lorem Ipsum Dolor sit amet
+---
+
+Voten por [mi][left]
+
+[left]: https://candideit.org

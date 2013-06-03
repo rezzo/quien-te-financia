@@ -1,0 +1,23 @@
+---
+layout: candidato
+
+title: Marcel Claude
+
+categories: 
+- candidatos
+- blacklist
+
+featured-image: ../../images/post/Claude.png
+
+semaforo: rojo
+
+c_twitter: marcelclaude
+
+
+---
+Lorem Ipsum Dolor sit amet
+---
+
+Voten por [mi][left]
+
+[left]: https://candideit.org

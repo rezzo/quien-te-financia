@@ -1,0 +1,23 @@
+---
+layout: candidato
+
+title: Roxana Miranda
+
+categories: 
+- candidatos
+- blacklist
+
+featured-image: ../../images/post/Miranda.png
+
+semaforo: rojo
+
+c_twitter: roxanaespueblo
+
+
+---
+Lorem Ipsum Dolor sit amet
+---
+
+Voten por [mi][left]
+
+[left]: https://candideit.org

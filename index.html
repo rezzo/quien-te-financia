@@ -14,17 +14,19 @@ title: "Posts"
               <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
       {% endfor %}
-</ul>
+    </ul>
   </ul>
 </section>
-<section class="content blacklist">
+<section class="content whitelist">
 <h3> Estos candidatos no quieren que los maneje el poder invisible</h3>
 <p>Por eso firmaron el compromiso por la transparencia en el financiamiento de campañas políticas</p>
   <ul class="listing">
-    {% for post in site.posts %}
-    <li>
-      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
+    <ul class="posts">
+      {% for post in site.posts %}
+          {% if post.categories contains 'whitelist' %}
+              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+      {% endfor %}
+    </ul>
   </ul>
 </section>

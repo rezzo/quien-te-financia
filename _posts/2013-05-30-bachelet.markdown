@@ -1,0 +1,23 @@
+---
+layout: candidato
+
+title: Michelle Bachelet
+
+categories: 
+- candidatos
+- blacklist
+
+featured-image: ../../images/post/Bachelet.png
+
+semaforo: rojo
+
+c_twitter: comandomichelle
+
+
+---
+Lorem Ipsum Dolor sit amet
+---
+
+Voten por [mi][left]
+
+[left]: https://candideit.org

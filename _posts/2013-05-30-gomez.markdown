@@ -1,0 +1,23 @@
+---
+layout: candidato
+
+title: José Antonio Gómez
+
+categories: 
+- candidatos
+- blacklist
+
+featured-image: ../../images/post/Gomez.png
+
+semaforo: rojo
+
+c_twitter: gomez_2014
+
+
+---
+Lorem Ipsum Dolor sit amet
+---
+
+Voten por [mi][left]
+
+[left]: https://candideit.org
