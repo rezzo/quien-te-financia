@@ -12,6 +12,8 @@ semaforo: verde
 
 c_twitter: andresvelasco
 
+public-email: mlobos@ciudadanointeligente.org
+
 
 ---
 Lorem Ipsum Dolor sit amet

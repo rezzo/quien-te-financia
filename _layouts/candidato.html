@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: lb
 ---
 
 <section class="content">
@@ -15,8 +15,38 @@ layout: base
 
 
   <section class="byline">
-  Color de su semáforo: {{page.semaforo}}
-  <div class="actionspace"> Pídele que declare <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne el poder invisible @{{page.c_twitter}} responde quién te financia!" ></a>
+    
+        Color de su semáforo: {{page.semaforo}}
+     
+  <div class="actionspace">  
+
+  <!-- BLACKLIST -->  
+
+    {% if page.categories contains 'blacklist' %}
+      Pídele que declare 
+        <span class="oneAction">
+         
+        <!-- Twitter -->
+          <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne el poder invisible. @{{page.c_twitter}} responde #QuienTeFinancia" ></a>
+        </span>
+        
+        <!-- Mail -->
+        <span class="oneAction ">
+         <a class="btnBasic btnMail"href="mailto:{{ page.public-email }}&bcc=montselobos@gmail.com&subject={{ page.title}} Responde quién te financia  &body=Como ciudadanos nos preocupa la falta de transparencia en el financiamiento de campañas políticas, no queremos ser gobernados por un poder invisible. Queremos saber quién financia tu campaña. Fomenta una política más transparente y una democracia de calidad respondiendo el cuestionario que Ciudadano Inteligente ha enviado a tu comando" title="[GMCP] Compose a new mail to {{ page.public-email }} " class="custom-link" onclick="window.open('https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to={{ page.public-email }}','Compose new message','width=640,height=480');return false" rel="noreferrer">
+         Escríblele
+        </a>
+       </span>
+
+    {% endif %}
+
+
+  <!-- WHITELIST -->    
+
+    {% if page.categories contains 'whitelist' %}
+      Felicítalo <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Revisa el compromiso de @{{page.c_twitter}} respecto a la transparencia en el financiamiento de campañas" ></a>
+
+    {% endif %}
+
 
   </div>
   </section>
