@@ -58,16 +58,23 @@ title: "Posts"
 <section class="content whitelist">
   <div class="theWhiteBox">
     <h3> Estos candidatos no quieren que los maneje el poder invisible</h3>
-    <p>Por eso firmaron el compromiso por la transparencia en el financiamiento de campañas políticas</p>
+    <p>Por hicieron un compromiso por la transparencia en el financiamiento de campañas políticas.<br /> Revisa sus compromisos:</p>
       <ul class="candidatesList">
          
           {% for post in site.posts %}
               {% if post.categories contains 'whitelist' %}
                   <li>
-                    <a class="fancybox fancybox.iframe" data-fancybox-group="candidatos-w" href="{{ BASE_PATH }}{{ post.url }}">
-                      <img src="{{ post.featured-image }}" />
-                      {{ post.title }}
-                    </a>
+                    <div class="ficha">
+                        <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-w" href="{{ BASE_PATH }}{{ post.url }}">
+                          <img src="{{ post.featured-image }}" />
+                          {{ post.title }}
+                        </a>
+                        <hr>
+                       <small> Comparte su compromiso </small><br/>
+                        <!-- Twitter -->
+                        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne el poder invisible. @{{post.c_twitter}} responde #QuienTeFinancia" ></a>
+                      </span>
+                    </div>
                   </li>
               {% endif %}
           {% endfor %}
