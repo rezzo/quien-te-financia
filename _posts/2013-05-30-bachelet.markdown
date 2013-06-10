@@ -9,9 +9,27 @@ categories:
 
 featured-image: ../../images/post/Bachelet.png
 
-semaforo: rojo
+gender: f
 
 c_twitter: comandomichelle
+
+public-email: mail@mail.cl
+
+g_sueldos:
+
+g_publicidad:
+
+g_transporte:
+
+g_inmuebles:
+
+g_total:
+
+fecha_rendicion:
+
+link_declaracion:
+
+qtf_empresas:
 
 
 ---

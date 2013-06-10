@@ -11,6 +11,8 @@ featured-image: ../../images/post/mlobos.jpg
 
 c_twitter: montselobos
 
+gender: f
+
 public-email: mlobos@votainteligente.cl
 
 g_sueldos: $30.000.000

@@ -9,12 +9,27 @@ categories:
 
 featured-image: ../../images/post/Longueira.png
 
-semaforo: rojo
+gender: m
 
 c_twitter: Pablo_Longueira
 
-public-email: montse@ciudadanointeligente.org
+public-email: mail@mail.cl
 
+g_sueldos:
+
+g_publicidad:
+
+g_transporte:
+
+g_inmuebles:
+
+g_total:
+
+fecha_rendicion:
+
+link_declaracion:
+
+qtf_empresas:
 
 
 ---

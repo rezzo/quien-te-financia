@@ -9,10 +9,27 @@ categories:
 
 featured-image: ../../images/post/Gomez.png
 
-semaforo: rojo
+gender: m
 
 c_twitter: gomez_2014
 
+public-email: mail@mail.cl
+
+g_sueldos:
+
+g_publicidad:
+
+g_transporte:
+
+g_inmuebles:
+
+g_total:
+
+fecha_rendicion:
+
+link_declaracion:
+
+qtf_empresas:
 
 ---
 Lorem Ipsum Dolor sit amet

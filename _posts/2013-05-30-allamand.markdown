@@ -9,10 +9,25 @@ categories:
 
 featured-image: ../../images/post/Allamand.png
 
-semaforo: rojo
-
 c_twitter: allamand
 
+public-email: mail@mail.cl
+
+g_sueldos:
+
+g_publicidad:
+
+g_transporte:
+
+g_inmuebles:
+
+g_total:
+
+fecha_rendicion:
+
+link_declaracion:
+
+qtf_empresas:
 
 ---
 Lorem Ipsum Dolor sit amet

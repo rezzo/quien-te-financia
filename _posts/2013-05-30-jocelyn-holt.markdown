@@ -9,9 +9,27 @@ categories:
 
 featured-image: ../../images/post/Holt.png
 
-semaforo: rojo
+gender: m
 
 c_twitter: tjholt
+
+public-email: mail@mail.cl
+
+g_sueldos:
+
+g_publicidad:
+
+g_transporte:
+
+g_inmuebles:
+
+g_total:
+
+fecha_rendicion:
+
+link_declaracion:
+
+qtf_empresas:
 
 
 ---

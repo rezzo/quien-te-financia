@@ -8,12 +8,27 @@ categories:
 
 featured-image: ../../images/post/Velasco.png
 
-semaforo: verde
+gender: m
 
 c_twitter: andresvelasco
 
-public-email: mlobos@ciudadanointeligente.org
+public-email: mail@mail.cl
 
+g_sueldos:
+
+g_publicidad:
+
+g_transporte:
+
+g_inmuebles:
+
+g_total:
+
+fecha_rendicion:
+
+link_declaracion:
+
+qtf_empresas:
 
 ---
 Lorem Ipsum Dolor sit amet
