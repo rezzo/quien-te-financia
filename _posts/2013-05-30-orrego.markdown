@@ -9,6 +9,8 @@ categories:
 
 featured-image: ../../images/post/Orrego.png
 
+gender: m
+
 c_twitter: orrego
 
 public-email: mail@mail.cl

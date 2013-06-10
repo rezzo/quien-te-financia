@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "Posts"
+title: "Quien te financia"
 ---
  <script>
         $(document).ready(function() {
@@ -18,7 +18,7 @@ title: "Posts"
 <h2> Hasta que no sepamos quién los financia nos gobierna un poder invisible<h2>
   <h3> <a href="#">por qué?</a> </h3>
 
-<section class="content blacklist">
+<section class="content home blacklist">
   <div class="manAbove">
   </div>
   <div class="theBlackBox">
@@ -28,25 +28,7 @@ title: "Posts"
       {% for post in site.posts %}
           {% if post.categories contains 'blacklist' %}
               <li>
-                <div class="ficha">
-                  <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
-                    <img src="{{ post.featured-image }}" />
-                    {{ post.title }}
-                  </a>
-                      <span class="oneAction">
-         
-                      <!-- Twitter -->
-                        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne un poder invisible. @{{post.c_twitter}} responde #QuienTeFinancia {{ site.url }}" ></a>
-                      </span>
-                      
-                      <!-- Mail -->
-                      <span class="oneAction ">
-                       <a class="btnBasic btnMail"href="mailto:{{ post.public-email }}&bcc=montselobos@gmail.com&subject={{ post.title}} Responde quién te financia  &body=Como ciudadanos nos preocupa la falta de transparencia en el financiamiento de campañas políticas, no queremos ser gobernados por un poder invisible. Queremos saber quién financia tu campaña. Fomenta una política más transparente y una democracia de calidad respondiendo el cuestionario que Ciudadano Inteligente ha enviado a tu comando" title="[GMCP] Compose a new mail to {{ post.public-email }} " class="custom-link" onclick="window.open('https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to={{ post.public-email }}','Compose new message','width=640,height=480');return false" rel="noreferrer">
-                       Mail
-                      </a>
-                     </span>
-                   
-                </div>  
+                {% include ficha_home.html %}
               </li> 
              
           {% endif %}
@@ -55,7 +37,7 @@ title: "Posts"
   </ul>
 </div>
 </section>
-<section class="content whitelist">
+<section class="content home whitelist">
   <div class="theWhiteBox">
     <h3> Estos candidatos no quieren que los maneje el poder invisible</h3>
     <p>Por hicieron un compromiso por la transparencia en el financiamiento de campañas políticas.<br /> Revisa sus compromisos:</p>
@@ -64,19 +46,13 @@ title: "Posts"
           {% for post in site.posts %}
               {% if post.categories contains 'whitelist' %}
                   <li>
-                    <div class="ficha">
-                        <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-w" href="{{ BASE_PATH }}{{ post.url }}">
-                          <img src="{{ post.featured-image }}" />
-                          {{ post.title }}
-                        </a>
-                        <hr>
-                       <small> Comparte su compromiso </small><br/>
-                        <!-- Twitter -->
-                        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Mira el compromiso que hizo @{{post.c_twitter}} con la transparencia en el financiamiento de campañas {{ site.url}}{{post.url}}" ></a>
-                      </span>
-                    </div>
+                   {% include ficha_home.html %}
                   </li>
               {% endif %}
+
+
+            
+
           {% endfor %}
       
       </ul>

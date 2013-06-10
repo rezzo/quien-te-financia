@@ -9,6 +9,8 @@ categories:
 
 featured-image: ../../images/post/Allamand.png
 
+gender: m
+
 c_twitter: allamand
 
 public-email: mail@mail.cl

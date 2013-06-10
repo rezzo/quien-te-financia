@@ -1,0 +1,45 @@
+<div class="ficha">
+  <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
+     {{ post.title }}
+    <img src="{{ post.featured-image }}" />
+   
+  </a>
+
+     <!--WHITE LIST-->
+
+    {% if post.categories contains 'whitelist' %}
+        
+        {% if post.gender == 'f' %}
+        ¡Felicítala!
+        {% endif %}
+        {% if post.gender == 'm' %}
+        ¡Felicítalo!
+        {% endif %}
+              <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Felicitaciones @{{post.c_twitter}} por declarar transparentemente {{site.hashtag}} {{ site.url }}{{ post.url }}" ></a>
+
+    {% endif %}
+
+      <!--BLACK LIST-->
+
+      {% if post.categories contains 'blacklist' %}
+          
+          <small class="actionQTF">
+              ¡Dime quién te financia!
+          </small>
+           <!-- Twitter -->
+
+          <span class="oneAction">
+            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne el poder invisible. @{{post.c_twitter}} responde {{site.hashtag}} {{ site.url }}" ></a>
+          </span>
+          
+          <!-- Mail -->
+
+          <span class="oneAction ">
+            <a class="btnBasic btnMail"href="mailto:{{ post.public-email }}&bcc=montselobos@gmail.com&subject={{ post.title}} Responde quién te financia  &body=Como ciudadanos nos preocupa la falta de transparencia en el financiamiento de campañas políticas, no queremos ser gobernados por un poder invisible. Queremos saber quién financia tu campaña. Fomenta una política más transparente y una democracia de calidad respondiendo el cuestionario que Ciudadano Inteligente ha enviado a tu comando" title="[GMCP] Compose a new mail to {{ post.public-email }} " class="custom-link" onclick="window.open('https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to={{ post.public-email }}','Compose new message','width=640,height=480');return false" rel="noreferrer">
+             Mail
+            </a>
+          </span>
+      {% endif %}   
+</div>
+
+   

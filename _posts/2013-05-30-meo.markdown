@@ -9,6 +9,8 @@ categories:
 
 featured-image: ../../images/post/Enriquez.png
 
+gender: m
+
 c_twitter: marcoporchile
 
 public-email: mail@mail.cl

@@ -1,34 +1,58 @@
-<div class="ficha">
-  <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ page.url }}">
-     {{ page.title }}
-    <img src="{{ page.featured-image }}" />
+<div class="ficha innerficha">
+
    
-  </a>
-     {% if page.categories contains 'whitelist' %}
-         <small> Comparte su compromiso </small><br/>
-          <!-- Twitter -->
-          <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Mira el compromiso de @{{page.c_twitter}} por la transparencia de financiamiento de campañas {{ site.url }}{{ page.url }}" ></a>
-      {% endif %}   
+ <div class="introCandidate"> 
+    <img class="cImage" src="{{ page.featured-image }}" /> 
+    <div class="actionLine">
+      <h1> {{ page.title }} </h1>
+       <!--WHITE LIST-->
 
-      {% if page.categories contains 'blacklist' %}
-          
-          <small class="actionQTF">
-              ¡Dime quién te financia!
-          </small>
-           <!-- Twitter -->
+      {% if page.categories contains 'whitelist' %}
+        Ha declarado a quiénes le pidió financiamiento.
+        <br />
+        <strong>
+            {% if page.gender == 'f' %}
+            ¡Felicítala!
+            {% endif %}
+            {% if page.gender == 'm' %}
+            ¡Felicítalo!
+            {% endif %}
+        </strong> 
+        <br />
+        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Felicitaciones @{{page.c_twitter}} por declarar transparentemente {{site.hashtag}} {{ site.url }}{{ page.url }}" ></a>
 
-          <span class="oneAction">
-            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne el poder invisible. @{{page.c_twitter}} comprométete con la transparencia {{ site.url }}" ></a>
-          </span>
-          
-          <!-- Mail -->
+      {% endif %}
 
-          <span class="oneAction ">
-            <a class="btnBasic btnMail"href="mailto:{{ page.public-email }}&bcc=montselobos@gmail.com&subject={{ page.title}} Responde quién te financia  &body=Como ciudadanos nos preocupa la falta de transparencia en el financiamiento de campañas políticas, no queremos ser gobernados por un poder invisible. Queremos saber quién financia tu campaña. Fomenta una política más transparente y una democracia de calidad respondiendo el cuestionario que Ciudadano Inteligente ha enviado a tu comando" title="[GMCP] Compose a new mail to {{ page.public-email }} " class="custom-link" onclick="window.open('https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to={{ page.public-email }}','Compose new message','width=640,height=480');return false" rel="noreferrer">
-             Mail
-            </a>
-          </span>
-      {% endif %}   
+        <!--BLACK LIST-->
+
+        {% if page.categories contains 'blacklist' %}
+            No ha declarado a quiénes le pidió financiamiento.
+            <br />
+            <strong class="actionQTF">
+               {% if page.gender == 'f' %}
+                ¡Pregúntale quién la financia!
+                {% endif %}
+                {% if page.gender == 'm' %}
+                ¡Pregúntale quién lo financia!
+                {% endif %}
+
+            </strong>
+             <!-- Twitter -->
+
+            <span class="oneAction">
+              <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne el poder invisible. @{{page.c_twitter}} responde {{site.hashtag}} {{ site.url }}" ></a>
+            </span>
+            
+            <!-- Mail -->
+
+            <span class="oneAction ">
+              <a class="btnBasic btnMail"href="mailto:{{ page.public-email }}&bcc=montselobos@gmail.com&subject={{ page.title}} Responde quién te financia  &body=Como ciudadanos nos preocupa la falta de transparencia en el financiamiento de campañas políticas, no queremos ser gobernados por un poder invisible. Queremos saber quién financia tu campaña. Fomenta una política más transparente y una democracia de calidad respondiendo el cuestionario que Ciudadano Inteligente ha enviado a tu comando" title="[GMCP] Compose a new mail to {{ page.public-email }} " class="custom-link" onclick="window.open('https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to={{ page.public-email }}','Compose new message','width=640,height=480');return false" rel="noreferrer">
+               Mail
+              </a>
+            </span>
+        {% endif %}   
+    </div>
+  </div>  
 </div>
 
    

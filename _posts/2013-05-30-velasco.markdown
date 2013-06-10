@@ -8,7 +8,7 @@ categories:
 
 featured-image: ../../images/post/Velasco.png
 
-gender: m
+gender: 'm'
 
 c_twitter: andresvelasco
 

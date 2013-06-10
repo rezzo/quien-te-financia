@@ -3,59 +3,7 @@ layout: lb
 ---
 
 <section class="content">
-  <h1>
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  </h1>
-  <img src="{{page.featured-image}}" />
-  
-
-
-
-
-
-
-  <section class="byline">
-    
-     
-  <div class="actionspace">  
-
-  <!-- BLACKLIST -->  
-
-    {% if page.categories contains 'blacklist' %}
-      Pídele que declare 
-        <span class="oneAction">
-         
-        <!-- Twitter -->
-             <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne el poder invisible. @{{page.c_twitter}} responde #QuienTeFinancia {{ site.url }}{{ page.url }}" ></a>
-        </span>
-        
-        <!-- Mail -->
-        <span class="oneAction ">
-         <a class="btnBasic btnMail"href="mailto:{{ page.public-email }}&bcc=montselobos@gmail.com&subject={{ page.title}} Responde quién te financia  &body=Estimad@ Candidat@:
-
-Chile ha cambiado, hoy los ciudadanos exigimos mayor transparencia y rendición de cuentas por parte de nuestras autoridades. Usted es una de estas personas. Está tratando de ser President@ de todos los chilenos, y eso involucra que sepamos quién financia su propaganda electoral, sus equipos, sus camionetas, etc. 
-
-Demuestre que de ser elegido President@, gobernará para todos los chilenos y chilenas, buscando siempre el interés general, y nunca defendiendo intereses particulares de quienes hoy le están donando la plata para montar su campaña electoral.
-
-L@s ciudadan@s le pedimos que transparente el origen del dinero que financia su campaña, y los gastos en los que está incurriendo. No queremos que nos gobierne el poder invisible, lo invitamos a liberarse de él rindiendo las cuentas de su campaña en quientefinancia.cl
-
-¡¡Nos vemos en las urnas!!" title="[GMCP] Compose a new mail to {{ page.public-email }} " class="custom-link" onclick="window.open('https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to={{ page.public-email }}','Compose new message','width=640,height=480');return false" rel="noreferrer">
-         Escríblele
-        </a>
-       </span>
-
-    {% endif %}
-
-
-  <!-- WHITELIST -->    
-
-    {% if page.categories contains 'whitelist' %}
-      Felicítalo  <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Felicitaciones @{{page.c_twitter}} por declarar transparentemente #QuienTeFinancia {{ site.url }}{{ page.url }}" ></a>
-
-    {% endif %}
-
-
-  </div>
+  {% include ficha.html %}
   </section>
 
   {{ content }}
