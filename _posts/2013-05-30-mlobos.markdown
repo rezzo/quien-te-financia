@@ -1,0 +1,43 @@
+---
+layout: candidato
+
+title: Montse Lobos
+
+categories: 
+- candidatos
+- whitelist
+
+featured-image: ../../images/post/mlobos.jpg
+
+c_twitter: montselobos
+
+public-email: mlobos@votainteligente.cl
+
+g_sueldos: $30.000.000
+
+g_publicidad: $30.000.000
+
+g_transporte: $30.000.000
+
+g_inmuebles: $30.000.000
+
+g_total: $120.000.000
+
+fecha_rendicion: 10 /06 /2013
+
+link_declaracion: http://ciudadanointeligente.org
+
+qtf_empresas:
+- empresaB
+- Ciudadano Inteligente
+- Open society Foundations
+- Omydiar Network
+- Google.org
+
+---
+Lorem Ipsum Dolor sit amet
+---
+
+Voten por [mi][left]
+
+[left]: https://candideit.org
