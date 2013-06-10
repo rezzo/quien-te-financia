@@ -118,7 +118,7 @@ border: 1px solid red; */
 	display: block;
 	width: 120%;
 	height: 143px;
-	background: url(../images/theman/scissor_l.png) no-repeat right 0, url(../images/theman/scissor_r.png) no-repeat left 0 transparent;
+	background: url(../images/theman/scissor_l.png) no-repeat right -15px, url(../images/theman/scissor_r.png) no-repeat left -15px transparent;
 	position: absolute;
 	bottom: -146px;
 	margin: 0 auto;
@@ -159,7 +159,7 @@ border: 1px solid red; */
 	line-height: 1.4em; 
 	clear: both;
 	display: block;
-	margin-bottom: 10px;
+	
 }
 .ficha{
 	background-color: #1E2224;
@@ -167,19 +167,30 @@ border: 1px solid red; */
 	margin: 0;
 	padding: 10px 2px 5px;
 }
+
 .content .ficha img{border: none;}
 
 .theWhiteBox .ficha{
-
 	background-color: #d2d2d2;
 	color: #000;
-}
-.theWhiteBox .ficha a.cName{ color: #000;
-	}
+}	
 
-.content .theWhiteBox hr, .theBlackBox hr{
-margin: 1em;
-background-image: url(../images/rope-hr.png);
-background-position: center;
-height: 10px;
+.theWhiteBox .ficha a.cName{ 
+	color: #000;
+}
+
+.content .theBlackBox hr{
+	height: 10px;
+	margin: 1em;
+}
+
+.content .theWhiteBox hr{
+	margin: 1em;
+	background-image: url(../images/rope-hr.png);
+	background-position: center;
+	height: 10px;
+}
+small.actionQTF{ 
+	line-height: 25px;
+	color: rgb(255, 92, 0);
 }
