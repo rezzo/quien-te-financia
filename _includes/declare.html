@@ -1,0 +1,21 @@
+<!--declare-->
+<div class="well companies">
+
+	<h3> A quién le pidió financiamiento</h3>
+	<div class="tagline"> Lista de empresas a las que pidió recursos</div>
+	{{ page.qtf_empresas }}
+</div>
+
+
+<div class="gastos">
+	<h3> Gastos declarados </h3>
+	<div class="tagline"> al {{ page.fecha_rendicion }}</div>
+	<span class="spendItem">Sueldos:</span> {{ page.g_sueldos}} <br />
+	<span class="spendItem">Publicidad:</span> {{ page.g_publicidad}} <br />
+	<span class="spendItem">Transporte:</span> {{ page.g_transporte}} <br />
+	<span class="spendItem">Inmuebles:</span> {{ page.g_inmuebles}} <br />
+	<span class="spendItem total">Gasto total:</span><span class="total"> {{ page.g_total }}  </span><br />
+
+
+	<div class="well">{{ page.link_declaracion }}</div>
+</div>
