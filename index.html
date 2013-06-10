@@ -15,14 +15,14 @@ title: "Posts"
             });
         });
     </script>
-<h2> Que no nos gobierne el poder invisible<h2>
-  <h3> Dime quién te financia </h3>
+<h2> Hasta que no sepamos quién los financia nos gobierna un poder invisible<h2>
+  <h3> <a href="#">por qué?</a> </h3>
 
 <section class="content blacklist">
   <div class="manAbove">
   </div>
   <div class="theBlackBox">
-    <p> Estos candidatos no han firmado el compromiso de transparencia </p>
+    <p>Pregúntale a estos candidatos #QuiénTeFinancia </p>
   <ul class="candidatesList">
    
       {% for post in site.posts %}
@@ -36,7 +36,7 @@ title: "Posts"
                       <span class="oneAction">
          
                       <!-- Twitter -->
-                        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne el poder invisible. @{{post.c_twitter}} responde #QuienTeFinancia" ></a>
+                        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne un poder invisible. @{{post.c_twitter}} responde #QuienTeFinancia {{ site.url }}" ></a>
                       </span>
                       
                       <!-- Mail -->
@@ -72,7 +72,7 @@ title: "Posts"
                         <hr>
                        <small> Comparte su compromiso </small><br/>
                         <!-- Twitter -->
-                        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne el poder invisible. @{{post.c_twitter}} responde #QuienTeFinancia" ></a>
+                        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Mira el compromiso que hizo @{{post.c_twitter}} con la transparencia en el financiamiento de campañas {{ site.url}}{{post.url}}" ></a>
                       </span>
                     </div>
                   </li>
