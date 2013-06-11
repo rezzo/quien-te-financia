@@ -190,7 +190,7 @@ border: 1px solid red; */
 	background-position: center;
 	height: 10px;
 }
-small.actionQTF{ 
+small.actionQTF, .actionQTF{ 
 	line-height: 25px;
 	color: rgb(255, 92, 0);
 }
@@ -209,3 +209,4 @@ small.actionQTF{
 }
 
 .cImage{ float: left;}
+.well.companies h2{text-align: center;}
