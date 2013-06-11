@@ -194,3 +194,18 @@ small.actionQTF{
 	line-height: 25px;
 	color: rgb(255, 92, 0);
 }
+
+.innerficha{}
+.introCandidate{
+	margin-top: 35px;
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.actionLine{
+	float: left;
+	margin-left: 15px;
+}
+
+.cImage{ float: left;}

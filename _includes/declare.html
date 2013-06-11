@@ -1,21 +1,43 @@
 <!--declare-->
 <div class="well companies">
 
-	<h3> A quién le pidió financiamiento</h3>
+	<h2> A quién le pidió financiamiento</h3>
 	<div class="tagline"> Lista de empresas a las que pidió recursos</div>
 	{{ page.qtf_empresas }}
 </div>
 
 
 <div class="gastos">
-	<h3> Gastos declarados </h3>
+	<h2> Gastos declarados </h3>
 	<div class="tagline"> al {{ page.fecha_rendicion }}</div>
-	<span class="spendItem">Sueldos:</span> {{ page.g_sueldos}} <br />
-	<span class="spendItem">Publicidad:</span> {{ page.g_publicidad}} <br />
-	<span class="spendItem">Transporte:</span> {{ page.g_transporte}} <br />
-	<span class="spendItem">Inmuebles:</span> {{ page.g_inmuebles}} <br />
-	<span class="spendItem total">Gasto total:</span><span class="total"> {{ page.g_total }}  </span><br />
+
+	<table class="table table-striped table-bordered table-declare">
+		<tr>
+			<td class="spendItem">Sueldos:</td>
+			<td>{{ page.g_sueldos}} </td>
+		</tr>
+		<tr>
+			<td class="spendItem">Publicidad:</td>
+			<td>{{ page.g_publicidad}}</td>
+		</tr>
+		<tr>
+			<td class="spendItem">Transporte:</td>
+			<td>{{ page.g_transporte}}</td>
+		</tr>
+		<tr>
+			<td class="spendItem">Inmuebles:</td>
+			<td>{{ page.g_inmuebles}}</td>
+		</tr>
+		<tr>
+			<td class="spendItem total">Gasto total:</td>
+			<td class="total">{{ page.g_total }}</td>
+		</tr>
+
+</table>
+
+	
 
 
-	<div class="well">{{ page.link_declaracion }}</div>
+	<div class="well">
+		Descarga su <a href="{{ page.link_declaracion }}">declaración de intereses</a></div>
 </div>
