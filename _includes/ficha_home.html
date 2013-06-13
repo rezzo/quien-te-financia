@@ -1,14 +1,14 @@
 <div class="ficha">
-  <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
-     {{ post.title }}
-    <img src="{{ post.featured-image }}" />
-   
-  </a>
 
      <!--WHITE LIST-->
 
     {% if post.categories contains 'whitelist' %}
-        
+      <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
+         {{ post.title }}
+        <img class=""src="{{ post.featured-image }}" />
+     </a>
+
+      
         {% if post.gender == 'f' %}
         ¡Felicítala!
         {% endif %}
@@ -22,6 +22,13 @@
       <!--BLACK LIST-->
 
       {% if post.categories contains 'blacklist' %}
+        <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
+           {{ post.title }}     
+               <div class="noResponseBand">
+                <img class="" src="{{ post.featured-image }}" />
+              </div>
+        </a>
+     
           
           <small class="actionQTF">
               ¡Dime quién te financia!

@@ -211,3 +211,16 @@ small.actionQTF, .actionQTF{
 .cImage{ float: left;}
 .well.companies h2{text-align: center;}
 #discovery{display: none;}
+
+.noResponseBand{position: relative;}
+.noResponseBand:after{
+	content: '';
+	display: block;
+	height: 125px;
+	width: 100%;
+	background: url(../images/no-responde.png) no-repeat transparent;
+	position: absolute;
+	top: 10px;
+	left: -1px;
+	background-position: center center;
+}
