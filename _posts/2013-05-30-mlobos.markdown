@@ -27,7 +27,6 @@ g_total: $120.000.000
 
 fecha_rendicion: 10 /06 /2013
 
-link_declaracion: http://ciudadanointeligente.org
 
 qtf_empresas:
 - empresaB
@@ -35,6 +34,10 @@ qtf_empresas:
 - Open society Foundations
 - Omydiar Network
 - Google.org
+
+responde_financiamiento: n
+
+responde_gasto: y
 
 ---
 Lorem Ipsum Dolor sit amet

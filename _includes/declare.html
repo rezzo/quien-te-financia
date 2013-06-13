@@ -1,13 +1,15 @@
 <!--declare-->
+{% if page.responde_financiamiento == 'y' %}
 <div class="well companies">
 
-	<h2> A quién le pidió financiamiento</h3>
-	<div class="tagline"> Lista de empresas a las que pidió recursos</div>
-	{{ page.qtf_empresas }}
+	<h2> Origen del financiamiento de su campaña</h3>
+	"  {{ page.qtf_empresas }}  "
 </div>
+{% endif %}
 
 
-<div class="gastos">
+{% if page.responde_gasto == 'y' %}
+
 	<h2> Gastos declarados </h3>
 	<div class="tagline"> al {{ page.fecha_rendicion }}</div>
 
@@ -33,11 +35,20 @@
 			<td class="total">{{ page.g_total }}</td>
 		</tr>
 
-</table>
+	</table>
+	** OTROS** {{ page.g_otros }}
 
+
+{% endif %}
+{% if page.responde_gasto == 'n' %}
+
+<div class="well">
+	<h3>El candidato no ha transparentado sus gastos de campaña<h3>
+</div>	
+{% endif %}
 	
 
 
-	<div class="well">
-		Descarga su <a href="{{ page.link_declaracion }}">declaración de intereses</a></div>
-</div>
+
+
+

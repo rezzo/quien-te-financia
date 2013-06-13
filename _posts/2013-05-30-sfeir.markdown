@@ -15,6 +15,8 @@ c_twitter: zambuling
 
 public-email: mail@mail.cl
 
+responde_gasto: n
+
 g_sueldos:
 
 g_publicidad:
@@ -27,9 +29,12 @@ g_total:
 
 fecha_rendicion:
 
-link_declaracion:
+responde_financiamiento: n
 
 qtf_empresas:
+
+
+
 
 
 ---

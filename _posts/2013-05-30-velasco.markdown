@@ -4,7 +4,7 @@ layout: candidato
 title: Andrés Velasco
 categories: 
 - candidatos
-- whitelist
+- blacklist
 
 featured-image: ../../images/post/Velasco.png
 
@@ -12,7 +12,9 @@ gender: 'm'
 
 c_twitter: andresvelasco
 
-public-email: mail@mail.cl
+public-email: sumate@andresvelasco.cl
+
+responde_gasto: n
 
 g_sueldos:
 
@@ -26,9 +28,10 @@ g_total:
 
 fecha_rendicion:
 
-link_declaracion:
+responde_financiamiento: n
 
 qtf_empresas:
+
 
 ---
 Lorem Ipsum Dolor sit amet

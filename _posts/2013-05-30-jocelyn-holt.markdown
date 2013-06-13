@@ -15,6 +15,8 @@ c_twitter: tjholt
 
 public-email: mail@mail.cl
 
+responde_gasto:
+
 g_sueldos:
 
 g_publicidad:
@@ -27,15 +29,13 @@ g_total:
 
 fecha_rendicion:
 
-link_declaracion:
+ 
+responde_financiamiento: 
 
 qtf_empresas:
 
 
 ---
-Lorem Ipsum Dolor sit amet
+Se compromete a:
 ---
 
-Voten por [mi][left]
-
-[left]: https://candideit.org

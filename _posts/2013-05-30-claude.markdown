@@ -15,6 +15,8 @@ c_twitter: marcelclaude
 
 public-email: mail@mail.cl
 
+responde_gasto:
+
 g_sueldos:
 
 g_publicidad:
@@ -27,7 +29,8 @@ g_total:
 
 fecha_rendicion:
 
-link_declaracion:
+ 
+responde_financiamiento: 
 
 qtf_empresas:
 

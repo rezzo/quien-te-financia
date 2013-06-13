@@ -13,7 +13,9 @@ gender: m
 
 c_twitter: fr_parisi
 
-public-email: mail@mail.cl
+public-email: dvillegas@parisi2014.cl
+
+responde_gasto: 
 
 g_sueldos:
 
@@ -27,9 +29,12 @@ g_total:
 
 fecha_rendicion:
 
-link_declaracion:
+
+responde_financiamiento: 
 
 qtf_empresas:
+
+
 
 
 ---

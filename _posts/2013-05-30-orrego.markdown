@@ -13,29 +13,47 @@ gender: m
 
 c_twitter: orrego
 
-public-email: mail@mail.cl
+public-email: contacto@orregopresidente.cl
 
-g_sueldos:
+responde_gasto: y
 
-g_publicidad:
+g_sueldos: '$15.780.000'
 
-g_transporte:
+g_publicidad: '$52.420.000'
 
-g_inmuebles:
+g_transporte: '$9.870.928'
 
-g_total:
+g_inmuebles: '$4.000.000'
 
-fecha_rendicion:
+g_total: '$141.207.366'
 
-link_declaracion:
+g_otros: "Gasto en evento 7.313.840
+medios, radios y prensa ( producción graáfica y de medios), 22.890.000
 
-qtf_empresas:
+MONTO GLOBAL DEL GASTO AL 5 DE JUNIO 
+141.207.366
 
+VER WWW.ORREGOPRESIDENTE.CL
+
+LINKS: TRANSPARENCIA,  EN EL SE ENTREGA EL INFORME EJECUTIVO DE INGRESO Y GASTO DE LA CAMPAÑA AL 5 DE JUNIO
+"
+
+fecha_rendicion: '10/06/2013'
+
+
+responde_financiamiento: y
+
+qtf_empresas: "Las solicitudes de donaciones es de carácter público y se hace vía web y se puede hacer vía webpay o directo en la cuenta de campaña  $66.000.000 ( personas varias) 
+
+Actividades de Financiamiento, 27.000.000 ( comida)
+
+Las solicitudes a instituciones y empresas para hacerlo vía ley electoral se enmarcan en las condiciones establecidas en la ley y se dan a conocer por el SERVEL. 
+Aporte SERVEL ( reservados y públicos): $37.500.000.- "
 
 ---
-Lorem Ipsum Dolor sit amet
+Se compromete a:
 ---
+ Informe Periódico de Presupuesto - Ingreso y Gasto de la Campaña
+( ver informe en la pagina web)
 
-Voten por [mi][left]
 
-[left]: https://candideit.org
