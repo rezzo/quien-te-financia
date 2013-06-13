@@ -8,14 +8,8 @@
         <img class=""src="{{ post.featured-image }}" />
      </a>
 
-      
-        {% if post.gender == 'f' %}
-        ¡Felicítala!
-        {% endif %}
-        {% if post.gender == 'm' %}
-        ¡Felicítalo!
-        {% endif %}
-              <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Felicitaciones @{{post.c_twitter}} por declarar transparentemente {{site.hashtag}} {{ site.url }}{{ post.url }}" ></a>
+      Comparte: <br />
+              <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text=". @{{post.c_twitter}} contesta {{site.hashtag}} en {{ site.url }}" ></a>
 
     {% endif %}
 
@@ -30,15 +24,14 @@
         </a>
      
           
-          <small class="actionQTF">
-              ¡Dime quién te financia!
-          </small>
            <!-- Twitter -->
 
           <span class="oneAction">
-            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne el poder invisible. @{{post.c_twitter}} responde {{site.hashtag}} {{ site.url }}" ></a>
-          </span>
-          
+            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Esta es la transparencia de @{{post.c_twitter}} {{ site.url }} {{site.hashtag}}" ></a>
+          </span><br />
+          <small class="actionQTF">
+              ¡Exígele transparencia!
+          </small> 
         
       {% endif %}   
 </div>
