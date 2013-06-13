@@ -16,46 +16,30 @@ title: "Quien te financia"
         });
     </script>
 <h2> Hasta que no sepamos quién los financia nos gobierna un poder invisible<h2>
-  <h3> <a href="#">por qué?</a> </h3>
 
 <section class="content home blacklist">
-  <div class="manAbove">
-  </div>
+  <div class="manAbove"> </div>
   <div class="theBlackBox">
-    <p>Pregúntale a estos candidatos #QuiénTeFinancia </p>
   <ul class="candidatesList">
    
       {% for post in site.posts %}
-          {% if post.categories contains 'blacklist' %}
-              <li>
-                {% include ficha_home.html %}
-              </li> 
-             
-          {% endif %}
+        {% if post.categories contains 'blacklist' %}
+            <li>
+              {% include ficha_home.html %}
+            </li> 
+           
+        {% endif %}
       {% endfor %}
     
   </ul>
+   <ul class="candidatesList">
+    {% for post in site.posts %}
+      {% if post.categories contains 'whitelist' %}
+          <li>
+           {% include ficha_home.html %}
+          </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 </div>
-</section>
-<section class="content home whitelist">
-  <div class="theWhiteBox">
-    <h3> Estos candidatos no quieren que los maneje el poder invisible</h3>
-    <p>Por hicieron un compromiso por la transparencia en el financiamiento de campañas políticas.<br /> Revisa sus compromisos:</p>
-      <ul class="candidatesList">
-         
-          {% for post in site.posts %}
-              {% if post.categories contains 'whitelist' %}
-                  <li>
-                   {% include ficha_home.html %}
-                  </li>
-              {% endif %}
-
-
-            
-
-          {% endfor %}
-      
-      </ul>
-  </div>
-
 </section>
