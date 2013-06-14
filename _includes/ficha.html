@@ -8,59 +8,20 @@
        <!--WHITE LIST-->
 
       {% if page.categories contains 'whitelist' %}
-        Ha declarado a quiénes le pidió financiamiento.
+        Ha declarado lo siquiente:
         <br />
+         <br />
+          <br />
         <strong>
-            {% if page.gender == 'f' %}
-            ¡Felicítala!
-            {% endif %}
-            {% if page.gender == 'm' %}
-            ¡Felicítalo!
-            {% endif %}
-        </strong> 
+           Comparte su declaración
         <br />
-        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Felicitaciones @{{page.c_twitter}} por declarar transparentemente {{site.hashtag}} {{ site.url }}{{ page.url }}" ></a>
+        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Esta es la transparencia de @{{page.c_twitter}} {{ site.url }} {{site.hashtag}}" ></a>
 
       {% endif %}
 
         <!--BLACK LIST-->
 
-        {% if page.categories contains 'blacklist' %}
-            No ha declarado a quiénes le pidió financiamiento.
-            <br />
-            <strong class="actionQTF">
-               {% if page.gender == 'f' %}
-                ¡Pregúntale quién la financia!
-                {% endif %}
-                {% if page.gender == 'm' %}
-                ¡Pregúntale quién lo financia!
-                {% endif %}
-
-            </strong>
-            <br/>
-             <!-- Twitter -->
-
-            <span class="oneAction">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Yo no quiero que me gobierne el poder invisible. @{{page.c_twitter}} responde {{site.hashtag}} {{ site.url }}" ></a>
-            </span>
-            
-            <!-- Mail -->
-
-             {% if page.gender == 'f' %}
-          <span class="oneAction ">
-            <a class="btnBasic btnMail"href="mailto:{{ post.public-email }}&bcc=info@votainteligente.cl&subject={{ post.title }} Quién la financia&body=Estimada Candidata:%0D%0AChile ha cambiado, hoy los ciudadanos exigimos mayor transparencia y rendición de cuentas por parte de nuestras autoridades.%0D%0A%0D%0ADemuestre que de ser elegida Presidenta, gobernará para todos los chilenos y chilenas, buscando siempre el interés general, y nunca defendiendo intereses particulares de quienes hoy le están donando la plata para montar su campaña electoral. %0D%0A%0D%0ALos ciudadanos le pedimos que transparente el origen del dinero que financia su campaña, y los gastos en los que está incurriendo. No queremos que nos gobierne el poder invisible, rinda las cuentas de su campaña en quientefinancia.cl"title="[GMCP] Compose a new mail to {{ post.public-email }} " class="custom-link" onclick="window.open('https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to={{ post.public-email }}','Compose new message','width=640,height=480');return false" rel="noreferrer">
-             Mail
-            </a>
-          </span>
-           {% endif %}
-           {% if page.gender == 'm' %}
-          <span class="oneAction ">
-            <a class="btnBasic btnMail"href="mailto:{{ post.public-email }}&bcc=info@votainteligente.cl&subject={{ post.title }} Quién lo financia&body=Estimado Candidato:%0D%0AChile ha cambiado, hoy los ciudadanos exigimos mayor transparencia y rendición de cuentas por parte de nuestras autoridades.%0D%0A%0D%0ADemuestre que de ser elegido Presidente, gobernará para todos los chilenos y chilenas, buscando siempre el interés general, y nunca defendiendo intereses particulares de quienes hoy le están donando la plata para montar su campaña electoral. %0D%0A%0D%0ALos ciudadanos le pedimos que transparente el origen del dinero que financia su campaña, y los gastos en los que está incurriendo. No queremos que nos gobierne el poder invisible, rinda las cuentas de su campaña en quientefinancia.cl"title="[GMCP] Compose a new mail to {{ post.public-email }} " class="custom-link" onclick="window.open('https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to={{ post.public-email }}','Compose new message','width=640,height=480');return false" rel="noreferrer">
-             Mail
-            </a>
-          </span>
-           {% endif %}
-        {% endif %}   
+       
     </div>
   </div>  
 </div>

@@ -36,6 +36,6 @@ qtf_empresas:
 
 
 ---
-Se compromete a:
+
 ---
 

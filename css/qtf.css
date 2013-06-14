@@ -70,16 +70,16 @@ body.body-qtf{
 /* home candidates' list */
 
 .content .candidatesList li {
-font-size: 13px;
-list-style: none;
-padding: 5px 3px;
-margin: 0;
-color: #777777;
-width: 24%;
-float: left;
-text-align: center;
-/* border-bottom: 1px solid #eee;
-border: 1px solid red; */
+	font-size: 13px;
+	list-style: none;
+	padding: 5px 3px;
+	margin: 0 0 10px 0;
+	color: #777777;
+	width: 24%;
+	float: left;
+	text-align: center;
+	height: 240px;
+
 }
 .candidatesList li img{
 	clear: both;
@@ -209,7 +209,7 @@ small.actionQTF, .actionQTF{
 }
 
 .cImage{ float: left;}
-.well.companies h2{text-align: center;}
+.well.companies {text-align: center;}
 #discovery{display: none;}
 
 .noResponseBand{position: relative;}

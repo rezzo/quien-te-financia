@@ -34,9 +34,7 @@ qtf_empresas:
 
 
 ---
-Lorem Ipsum Dolor sit amet
+
 ---
 
-Voten por [mi][left]
 
-[left]: https://candideit.org

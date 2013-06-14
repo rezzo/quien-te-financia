@@ -7,6 +7,33 @@
 </div>
 {% endif %}
 
+{% if page.responde_financiamiento == 'n' %}
+<div class="well companies">
+
+	<h2>  No ha declarado a quiénes le pidió financiamiento. </h3>
+		<strong class="actionQTF">
+	           {% if page.gender == 'f' %}
+	            ¡Pregúntale quién la financia!
+	            {% endif %}
+	            {% if page.gender == 'm' %}
+	            ¡Pregúntale quién lo financia!
+	            {% endif %}
+
+        </strong>
+        <br/>
+         <!-- Twitter -->
+
+        <span class="oneAction">
+            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Oye @{{page.c_twitter}} a tí {{site.hashtag}} la campaña? {{ site.url }}" ></a>
+        </span>
+</div>
+{% endif %}
+
+
+
+
+
+
 
 {% if page.responde_gasto == 'y' %}
 
