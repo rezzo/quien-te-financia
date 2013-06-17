@@ -209,7 +209,16 @@ small.actionQTF, .actionQTF{
 }
 
 .cImage{ float: left;}
-.well.companies {text-align: center;}
+.well.companies {text-align: center; font-weight: lighter;
+line-height: 140%;
+}
+.well.companies p{font-size: 90%;}
+
+.donors li{ 
+	text-align: left;
+	font-size: 80%;
+}
+
 #discovery{display: none;}
 
 .noResponseBand{position: relative;}

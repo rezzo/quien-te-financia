@@ -1,9 +1,20 @@
 <!--declare-->
 {% if page.responde_financiamiento == 'y' %}
 <div class="well companies">
-
+	
 	<h2> Origen del financiamiento de su campaña</h3>
-	"  {{ page.qtf_empresas }}  "
+		
+		{% for qtf in page.qtf_empresas %}
+			{{ qtf | markdownify }}
+		{% endfor %}
+
+		<ul class="donors" >
+			{% for donor in page.donors %}
+				<li >{{ donor | first }} : <strong>{{ donor | last  }}</strong> </li>
+			{% endfor %}
+		</ul>
+
+
 	<br />
 	<strong class="actionQTF"> Comparte su declaración </strong>
 	  <span class="oneAction">
