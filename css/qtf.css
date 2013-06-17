@@ -22,6 +22,12 @@ body.body-qtf{
 
 }
 .siteLogo, .mainNav{ float: left;}
+.siteLogo{
+	background: url(../images/logo-qtf.png) no-repeat 0 0 transparent;
+	height: 100px;
+	display: block;
+	width: 270px;
+}
 .mainNav ul li{ float: left;}
 .centerCont{ 
 	max-width: 800px;
@@ -212,7 +218,7 @@ small.actionQTF, .actionQTF{
 .well.companies {text-align: center; font-weight: lighter;
 line-height: 140%;
 }
-.well.companies p{font-size: 90%;}
+.well.companies p, .spendItem{font-size: 90%; font-weight: lighter;}
 
 .donors li{ 
 	text-align: left;
@@ -233,3 +239,53 @@ line-height: 140%;
 	left: -1px;
 	background-position: center center;
 }
+.tagline{ font-weight: lighter;
+font-size: 70%;}
+
+
+.spendItem{ text-transform: uppercase;}
+.table tr.otros td{
+	font-size: 80%;
+	font-weight: lighter;
+}
+.table tr.otros:first-child td:first-child{
+	text-indent: 0em;
+}
+.table tr.otros td:first-child{
+	text-indent: 2em;
+}
+.table tr td.total{background-color: white; line-height: 170%;}
+
+.programa, .compromiso, .declara_gasto{
+	padding: 56px 0 12px;
+	margin-top: 45px;
+	position: relative;
+
+}
+.programa:before, .compromiso:before{
+	content: '';
+	display: block;
+	height: 40px;
+	width: 40px;
+	background: url(../images/comillas-inicio.png) no-repeat 0 0 transparent;
+	position: absolute;
+	top: 108px;
+	left: -36px;
+}
+.programa:after, .compromiso:after{
+	content: '';
+	display: block;
+	height: 40px;
+	width: 40px;
+	background: url(../images/comillas-final.png) no-repeat 0 0 transparent;
+	position: absolute;
+	bottom: -10px;
+	right: -41px;
+
+}
+
+.declara_gasto{background: url(../images/icono-declarados.png) no-repeat transparent center top; }
+
+.programa{background: url(../images/icono-programa.png) no-repeat transparent center top;}
+
+.compromiso{background: url(../images/icono-compromiso.png) no-repeat transparent center top;}
