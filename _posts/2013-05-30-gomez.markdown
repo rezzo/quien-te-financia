@@ -5,7 +5,7 @@ title: José Antonio Gómez
 
 categories: 
 - candidatos
-- whitelist
+- blacklist
 
 featured-image: ../../images/post/Gomez.png
 
@@ -15,7 +15,7 @@ c_twitter: gomez_2014
 
 public-email: mail@mail.cl
 
-responde_gasto: y
+responde_gasto: n
 
 g_sueldos:
 

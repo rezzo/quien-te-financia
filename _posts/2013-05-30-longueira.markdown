@@ -15,7 +15,7 @@ c_twitter: Pablo_Longueira
 
 public-email: mail@mail.cl
 
-responde_gasto:
+responde_gasto: n
 
 g_sueldos:
 
@@ -30,7 +30,7 @@ g_total:
 fecha_rendicion:
 
  
-responde_financiamiento: 
+responde_financiamiento: n
 
 qtf_empresas:
 

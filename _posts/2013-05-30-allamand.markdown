@@ -15,7 +15,7 @@ c_twitter: allamand
 
 public-email: mail@mail.cl
 
-responde_gasto:
+responde_gasto: n
 
 g_sueldos:
 
@@ -30,16 +30,19 @@ g_total:
 fecha_rendicion:
 
  
-responde_financiamiento: 
+responde_financiamiento: n
 
 qtf_empresas:
 
-
-
-
-
 ---
 
+En su programa:
 ---
 
+No hace referencia al financiamiento de la política.
 
+Fuente: [Programa de Gobierno Allamand 2014][prog] 
+
+
+
+[prog]:http://www.proyectoallamand.cl/wp-content/uploads/2013/06/4_ejes_16_propuestas.pdf
