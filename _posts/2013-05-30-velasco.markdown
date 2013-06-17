@@ -4,7 +4,7 @@ layout: candidato
 title: Andrés Velasco
 categories: 
 - candidatos
-- blacklist
+- whitelist
 
 featured-image: ../../images/post/Velasco.png
 
@@ -14,7 +14,7 @@ c_twitter: andresvelasco
 
 public-email: sumate@andresvelasco.cl
 
-responde_gasto: n
+responde_gasto: y
 
 g_sueldos:
 
@@ -26,15 +26,34 @@ g_inmuebles:
 
 g_total:
 
-fecha_rendicion:
+fecha_rendicion: 14/06/2013
 
-responde_financiamiento: n
+responde_financiamiento: 'y'
 
 qtf_empresas:
+-'Rafael Guilisasti 25.000.000 '
+-'Juan José Santa Cruz 25.000.000 '
+-'Andrés Velasco 15.000.000 '
+-'Tim Purcell 10.000.000 '
+-'Juan Ignacio Correa 5.000.000 '
+-'Carlos Portales 5.000.000 '
+-'Patricio Artiagoitía 5.000.000 '
+-'Ricardo Escobar 5.000.000 '
+-'Esteban Ovalle 5.000.000 '
+-'Gonzalo Cubillos 5.000.000 '
+-'Luis Felipe Céspedes 5.000.000 '
+-'Eric Parrado 5.000.000 '
+-'Juan Pablo Borquez 5.000.000 '
+-'Stefano Rossi 5.000.000 '
+-'Marcelo Tokman 5.000.000 '
+-'Carlos Catalán 5.000.000 '
+-'Jacques Albagli	 5.000.000'
+-'Ingresos por comida adherentes 28.000.000 '
+-'Total 168.000.000 '
 
 
 ---
-
+Se compromete a:
 ---
-
+>lipsum
 
