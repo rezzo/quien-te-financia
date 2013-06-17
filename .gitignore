@@ -7,3 +7,7 @@
 _site/
 
 _site/css/base.css
+
+_plugins/category_list.rb
+
+_plugins/donor_list.rb

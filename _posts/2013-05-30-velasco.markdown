@@ -58,20 +58,3 @@ donors:
 Se compromete a:
 ---
 >lipsum
-
-- Tim Purcell 10.000.000 
-- Juan Ignacio Correa 5.000.000 
-- Carlos Portales 5.000.000 
-- Patricio Artiagoitía 5.000.000 
-- Ricardo Escobar 5.000.000 
-- Esteban Ovalle 5.000.000 
-- Gonzalo Cubillos 5.000.000 
-- Luis Felipe Céspedes 5.000.000 
-- Eric Parrado 5.000.000 
-- Juan Pablo Borquez 5.000.000 
-- Stefano Rossi 5.000.000 
-- Marcelo Tokman 5.000.000 
-- Carlos Catalán 5.000.000 
-- Jacques Albagli 5.000.000
-- Ingresos por comida adherentes 28.000.000 
-- Total 168.000.000
