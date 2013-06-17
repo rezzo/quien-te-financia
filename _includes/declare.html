@@ -1,8 +1,7 @@
-<!--declare-->
 {% if page.responde_financiamiento == 'y' %}
-<div class="well companies">
+ <div class="well companies">
 	
-	<h2> Origen del financiamiento de su campaña</h3>
+	<h2> Origen del financiamiento de su campaña</h2>
 		
 		{% for qtf in page.qtf_empresas %}
 			{{ qtf | markdownify }}
@@ -48,7 +47,7 @@
 
 
 
-
+<div class="declara_gasto">
 
 
 {% if page.responde_gasto == 'y' %}
@@ -56,30 +55,28 @@
 	<h2> Gastos declarados </h3>
 	<div class="tagline"> al {{ page.fecha_rendicion }}</div>
 
+
 	<table class="table table-striped table-bordered table-declare">
-		<tr>
-			<td class="spendItem">Sueldos:</td>
-			<td>{{ page.g_sueldos}} </td>
-		</tr>
-		<tr>
-			<td class="spendItem">Publicidad:</td>
-			<td>{{ page.g_publicidad}}</td>
-		</tr>
-		<tr>
-			<td class="spendItem">Transporte:</td>
-			<td>{{ page.g_transporte}}</td>
-		</tr>
-		<tr>
-			<td class="spendItem">Inmuebles:</td>
-			<td>{{ page.g_inmuebles}}</td>
-		</tr>
-		<tr>
-			<td class="spendItem total">Gasto total:</td>
-			<td class="total">{{ page.g_total }}</td>
-		</tr>
+
+		{% for gasto in page.gastos %}
+			<tr>
+				<td class="spendItem">{{ gasto | first }} </td>	
+				<td>{{ gasto | last }}</td>
+			</tr>
+		{% endfor %}
+		{% for otro in page.otros_gastos %}
+			<tr class="otros">
+				<td>{{ otro | first }} </td>	
+				<td>{{ otro | last }}</td>
+			</tr>
+		{% endfor %}
+			<tr >
+				<td class="total">Gasto total:</td>
+				<td class="total">{{ page.g_total }}</td>
+			</tr>
 
 	</table>
-	** OTROS** {{ page.g_otros }}
+
 
 
 {% endif %}
@@ -89,7 +86,17 @@
 	<h3>El candidato no ha transparentado sus gastos de campaña<h3>
 </div>	
 {% endif %}
-	
+</div>
+
+
+{% if page.compromiso != null  %}
+<div class="compromiso">
+	<h2> Su compromiso: </h2>
+	{{page.compromiso}}
+</div>
+
+{% endif %}
+
 
 
 
