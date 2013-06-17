@@ -17,13 +17,11 @@ public-email: info@michellebachelet.cl
 
 responde_gasto: y
 
-g_sueldos: $48.000.000
-
-g_publicidad: $130.000.000
-
-g_transporte: $25.000.000
-
-g_inmuebles: $9.000.000
+gastos:
+- [ 'Sueldos' , '$48.000.000' ]
+- [ 'Publicidad' , '$130.000.000' ]
+- [ 'Transporte' , '$25.000.000' ]
+- [ 'Inmuebles' , '$9.000.000' ]
 
 g_total: $204.000.000
 
@@ -35,9 +33,9 @@ responde_financiamiento: y
 qtf_empresas: Esta candidatura no ha solicitado aportes a empresas
 
 
-
+compromiso: Incrementar la transparencia de la política y en particular de las campañas, financiamiento y conflictos de interés.
 ---
-Se compromete a 
----
+##En su programa##
 
-Incrementar la transparencia de la política y en particular de las campañas, financiamiento y conflictos de interés.
+La candidata no tiene programa
+

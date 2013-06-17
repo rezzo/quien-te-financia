@@ -17,13 +17,11 @@ public-email: mail@mail.cl
 
 responde_gasto: n
 
-g_sueldos:
-
-g_publicidad:
-
-g_transporte:
-
-g_inmuebles:
+gastos:
+- [ 'Sueldos' , '' ]
+- [ 'Publicidad' , '' ]
+- [ 'Transporte' , '' ]
+- [ 'Inmuebles' , '' ]
 
 g_total:
 
@@ -34,8 +32,10 @@ responde_financiamiento: n
 
 qtf_empresas:
 
+compromiso:
 
 ---
+##En su programa: ##
 
----
+El candidato no tiene programa
 

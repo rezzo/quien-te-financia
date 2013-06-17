@@ -6,7 +6,7 @@ categories:
 - candidatos
 - whitelist
 
-featured-image: ../../images/post/Velasco.png
+featured-image: ../../images/post/velasco-premiado.jpg
 
 gender: 'm'
 
@@ -16,21 +16,25 @@ public-email: sumate@andresvelasco.cl
 
 responde_gasto: y
 
-g_sueldos:
+gastos:
 
-g_publicidad:
+- [ 'Publicidad en radios' , '33.200.000' ]
+- [ 'Publicidad en vía pública' , '40.250.000' ]
+- [ 'Publicidad y producción digital' , '34.550.000' ]
+- [ 'Asesoría publicitaria y comunicacional' , '26.000.000' ]
+- [ 'Producción audiovisual' , '6.247.500' ]
+- [ 'Papelería y volanteo ' , '6.700.000' ]
+- [ 'Encuestas' , '2.200.000' ]
+- [ 'Producción de eventos ' , '1.190.000' ]
+- [ 'Sueldos, viajes y gastos varios' , '14.914.750' ]
 
-g_transporte:
-
-g_inmuebles:
-
-g_total:
+g_total: 165.252.250
 
 fecha_rendicion: 14/06/2013
 
 responde_financiamiento: 'y'
 
-qtf_empresas: 'A continuación lista de contribuciones'
+qtf_empresas: 'Con fecha viernes 14 de junio la campaña de Andrés Velasco declara públicamente que los ingresos comprometidos para la campaña suman un total de $168.000.000. Estos ingresos provienen de los aportes de las siguientes personas y en los siguientes montos:'
 
 donors:
 - [ 'Rafael Guilisasti' , '25.000.000' ]
@@ -53,8 +57,23 @@ donors:
 - [ 'Ingresos por comida adherentes' , '28.000.000' ]
 - [ 'Total' , '168.000.000' ]
 
+star: 'Por transparentar más detalles de la info solicitada'
+
+compromiso: 'La democracia se ejerce con más fuerza y claridad cuando se reduce  el peso del dinero en la política. El compromiso de esta candidatura con una mejor política incluye un compromiso también con la transparencia en materia de aportes y gastos de campaña.
+Creemos que los ciudadanos deben votar informados no solo respecto a las propuestas de los candidatos sino que también respecto a la manera que éstos financian sus campañas. Es por ello que previo a las elecciones primarias ponemos esta información a disposición de la opinión pública, sin desmedro de la declaración de gasto que efectuaremos de acuerdo a los plazos y condiciones que establece la ley y los reglamentos correspondientes.'
 
 ---
-Se compromete a:
----
->lipsum
+##En su programa: ##
+
+
+####Reformar la ley de partidos políticos ####
+ La reforma al sistema electoral debe ir de la mano de una reforma a la regulación legal de los partidos políticos, para propiciar la democracia interna y evitar el enquistamiento de sus dirigentes. Nuestra democracia requiere mejores partidos políticos, más transparentes y con mecanismos de selección de liderazgos que promuevan la renovación. Los partidos cumplen una función pública. Por eso deben recibir financiamiento público. Pero este no puede ser un cheque en blanco. Los fondos de todos los chilenos deben ir solo a los partidos que garanticen democracia interna, primarias obligatorias y vinculantes, rendición de cuentas y transparencia total.
+
+####Regular la relación del dinero y la política ####
+ La voluntad popular se expresa con más fuerza y claridad si reducimos el peso del dinero en la política. El año 2007 el Ejecutivo envió al Congreso un proyecto de ley para regular y transparentar el lobby. Dicho proyecto exigía que los lobistas se registren y que los legisladores informen al público con quiénes se reúnen. Es imprescindible aprobar una ley de esa índole, que además regule la declaración de patrimonio e intereses de los candidatos, el fideicomiso ciego al momento de inscribir candidaturas y los límites al aporte de las empresas a las campañas.
+
+Fuente: [Programa de Gobierno Velasco 2014][prog] 
+
+
+
+[prog]:http://www.andresvelasco.cl/propuestas/reformas-politicas-y-constitucionales/
