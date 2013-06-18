@@ -21,7 +21,7 @@ gastos:
 - [ 'Impresos' , '$ 20,403,645' ]
 - [ 'Campaña Radios' , '$ 25,564,000' ]
 - [ 'Letreros Callejeros' , '$ 1,200,000' ]
-- [ 'Gastos Administrativos' , '$20.000.000' ]
+- [ 'Gastos Administrativos' , '$ 20,000,000' ]
 
 g_total: '$ 67,167,645'
 
