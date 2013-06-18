@@ -177,6 +177,14 @@ body.body-qtf{
 	text-align: center;
 }
 
+.content h3 a.link-vota {
+	color: #82BD36;
+}
+
+.content h3 a.link-vota:hover {
+	color: #FFFFFF;
+}
+
 .candidatesList .cName{ 
 	color: #fff;
 	font-size: 1.45em;
