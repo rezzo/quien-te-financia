@@ -66,7 +66,7 @@ compromiso: "Informe Periódico de Presupuesto - Ingreso y Gasto de la Campaña 
 
  Chile se atreve a un buen servicio público como imperativo ético. El Estado debe ser transparente en su quehacer y cada autoridad pública debe responder frente al país por sus acciones y omisiones. Defendemos la urgencia de regular y fiscalizar la relación entre el dinero y la política, poniendo atajo a los conflictos de interés que amenazan la legitimidad de nuestra democracia. 
 
-Fuente: [Programa de Gobierno Orrego 2014][prog] 
+Fuente: <a href="http://www.orregopresidente.cl/el-buen-servicio-publico-como-imperativo-etico/" target='_blank'>Programa de Gobierno Orrego 2014</a><!-- [Programa de Gobierno Orrego 2014][prog] --> 
 
 
 

@@ -53,7 +53,7 @@ compromiso:
 
 (...) reformar los Partidos Políticos, que exista financiamiento transparente de la actividad política, romper con la influencia de quienes financian a Partidos y legisladores etc., medidas de este tipo pondrán nuevamente ante la opinión pública a las instituciones en situación de credibilidad.
 
-Fuente: [Programa de Gobierno Gómez 2014][prog] 
+Fuente: <a href="http://www.gomez2014.cl/programa/" target='_blank'>Programa de Gobierno Gómez 2014</a><!-- [Programa de Gobierno Gómez 2014][prog] --> 
 
 
 
