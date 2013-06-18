@@ -1,5 +1,3 @@
-
-
 *.DS_Store
 
 _plugins/category_list.rb

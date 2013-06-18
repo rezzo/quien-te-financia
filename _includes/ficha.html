@@ -1,12 +1,8 @@
 <div class="innerficha">
-
-   
- <div class="introCandidate"> 
-    <img class="cImage" src="{{ page.featured-image }}" /> 
+  <div class="introCandidate"> 
+    <img class="cImage" src="{{ page.featured-image }}" title="{{ page.title }}" /> 
     <div class="actionLine">
       <h1> {{ page.title }} </h1>
-       <!--WHITE LIST-->
-
       {% if page.categories contains 'whitelist' %}
 
         {% if page.star != null  %}
@@ -21,12 +17,7 @@
         </strong>
         <br />
         <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Esta es la transparencia de @{{page.c_twitter}}  {{site.hashtag}}" ></a>
-
       {% endif %}
-
-        <!--BLACK LIST-->
-
-       
     </div>
   </div>  
 </div>

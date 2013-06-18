@@ -21,7 +21,7 @@ body.body-qtf{
 .headTop{
 
 }
-.siteLogo { float: left;}
+.siteLogo { float: left; text-indent: -999999px}
 
 .mainNav{ float: right; list-style: none;}
 .mainNav ul { 
