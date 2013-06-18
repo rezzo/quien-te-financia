@@ -5,7 +5,7 @@ title: José Antonio Gómez
 
 categories: 
 - candidatos
-- blacklist
+- whitelist
 
 featured-image: ../../images/post/Gomez.png
 
