@@ -15,22 +15,35 @@ c_twitter: gomez_2014
 
 public-email: mail@mail.cl
 
-responde_gasto: n
+responde_gasto: y
 
 gastos:
-- [ 'Sueldos' , '' ]
-- [ 'Publicidad' , '' ]
-- [ 'Transporte' , '' ]
-- [ 'Inmuebles' , '' ]
+- [ 'Impresos' , '$ 20,403,645' ]
+- [ 'Campaña Radios' , '$ 25,564,000' ]
+- [ 'Letreros Callejeros' , '$ 1,200,000' ]
+- [ 'Gastos Administrativos' , '$20.000.000' ]
 
-g_total:
+g_total: '$ 67,167,645'
 
-fecha_rendicion:
+fecha_rendicion: '18/06/2013'
 
  
-responde_financiamiento: n
+responde_financiamiento: 'y'
 
-qtf_empresas:
+qtf_empresas: "Ingresos
+
+
+
+Aportes PRSD $ 50,000,000
+
+
+
+Aportes Personales del Candidato y Otros $ 20,000,000
+
+
+
+Total Ingresos $ 70,000,000"
+
 
 compromiso:
 
