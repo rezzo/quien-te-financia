@@ -1,2 +1,7 @@
-.DS_Store
-_site/
+*.DS_Store
+
+_plugins/category_list.rb
+
+_plugins/donor_list.rb
+
+_site/*
