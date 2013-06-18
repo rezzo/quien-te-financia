@@ -21,10 +21,19 @@ body.body-qtf{
 .headTop{
 
 }
-.siteLogo, .mainNav{ float: left;}
+.siteLogo { float: left;}
+
+.mainNav{ float: right; list-style: none;}
+.mainNav ul { 
+	float: right;
+	list-style: none;
+	position: relative;
+	margin-top: 15px;
+}
+
 .siteLogo{
 	background: url(../images/logo-qtf.png) no-repeat 0 0 transparent;
-	height: 100px;
+	height: 89px;
 	display: block;
 	width: 270px;
 }
@@ -32,6 +41,7 @@ body.body-qtf{
 .centerCont{ 
 	max-width: 800px;
 	margin: 0 auto;
+	width: 75%;
 }
 .lbCont{ 
 	max-width: 550px;
@@ -81,7 +91,7 @@ body.body-qtf{
 	padding: 5px 3px;
 	margin: 0 0 10px 0;
 	color: #777777;
-	width: 24%;
+	width: 165px;
 	float: left;
 	text-align: center;
 	height: 240px;
@@ -106,7 +116,7 @@ body.body-qtf{
 .theBlackBox{
 	background-color: rgba(48, 54, 56, 0.29);
 	position: relative;
-	margin: 0 25px;
+	margin: 25px;
 	padding: 30px;
 	border-top: 1px solid #808080;
 	box-shadow: 0px 0px 10px #686C70 inset, 0px 0px 15px #000;
@@ -116,9 +126,11 @@ body.body-qtf{
 	/* background-image: url(../images/theman/strings.png); */
 	background-repeat: no-repeat;
 	background-position: 54% 0;
+	color: #fff;
 
 
 }
+
 .theBlackBox:after{
 	content: '';
 	display: block;
@@ -157,7 +169,14 @@ body.body-qtf{
 
 
 }
-.cName{font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;}
+
+.cName, h2.titleLine{font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;}
+.titleLine{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
 .candidatesList .cName{ 
 	color: #fff;
 	font-size: 1.45em;
@@ -289,3 +308,23 @@ font-size: 70%;}
 .programa{background: url(../images/icono-programa.png) no-repeat transparent center top;}
 
 .compromiso{background: url(../images/icono-compromiso.png) no-repeat transparent center top;}
+
+  .content.wb h2, .content.wb h1  {
+    color: #333;
+}
+
+
+/* Ampolleta */
+
+.bulb_container {
+width: 80%;
+margin: 0 auto;
+position: relative;
+}
+
+.fci-ampolleta-dark {
+position: absolute;
+right: -66px;
+top: -6px;
+}
+
