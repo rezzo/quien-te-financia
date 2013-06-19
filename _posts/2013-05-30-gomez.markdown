@@ -30,20 +30,18 @@ fecha_rendicion: '18/06/2013'
  
 responde_financiamiento: 'y'
 
-qtf_empresas: "Ingresos
+qtf_empresas: " Los Ingresos del candidato se distribuyen de la siguiente forma:"
 
+donors:
 
-
-Aportes PRSD $ 50,000,000
-
-
-
-Aportes Personales del Candidato y Otros $ 20,000,000
-
-
-
-Total Ingresos $ 70,000,000"
-
+- ['Aportes PRSD' , '50,000,000' ]
+- ['Aportes personales Candidato' , '10,000,000' ]
+- ['Santiago González' , '3,000,000' ]
+- ['Raúl Muñoz' , '3,000,000' ]
+- ['Neftalí Carabantes' , '3,000,000' ]
+- ['Jóvenes Voluntarios' , '1,000,000' ]
+- ['TOTAL INGRESOS' , '70,000,000' ]
+ 
 
 compromiso:
 
